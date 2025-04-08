@@ -1,0 +1,10 @@
+[build]
+  # Command to build the site
+  command = "npm run build"
+
+  # Directory containing the deploy-ready assets (client build output)
+  publish = "build/client"
+
+[functions]
+  # Directory containing serverless functions (server build output)
+  directory = "build/server"
